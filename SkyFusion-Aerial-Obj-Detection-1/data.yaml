@@ -1,0 +1,14 @@
+names:
+- Aircraft
+- ship
+- vehicle
+nc: 3
+roboflow:
+  license: CC BY 4.0
+  project: skyfusion-aerial-obj-detection
+  url: https://universe.roboflow.com/cvworkspace/skyfusion-aerial-obj-detection/dataset/1
+  version: 1
+  workspace: cvworkspace
+test: ../test/images
+train: SkyFusion-Aerial-Obj-Detection-1/train/images
+val: SkyFusion-Aerial-Obj-Detection-1/valid/images
